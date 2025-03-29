@@ -13,6 +13,7 @@
     "test:wip": "cucumber-js -p default --tags 'not @wip' --exit"
   },
   "devDependencies": {
+    "dotenv": "^16.4.7",
     "@cucumber/cucumber": "^10.8.0",
     "@hashgraph/sdk": "^2.47.0",
     "@types/cucumber": "^7.0.0",

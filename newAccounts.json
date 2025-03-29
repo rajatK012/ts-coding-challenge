@@ -1,8 +1,4 @@
-export interface Account {
-  id: string, privateKey: string
-}
-
-export const accounts: Account[] = [
+[
   {
     "id": "0.0.5793622",
     "privateKey": "302e020100300506032b65700422042010574393a7e20527a3593d231be5507b243c91cd10141319474f5dfec08f2756"
@@ -24,4 +20,3 @@ export const accounts: Account[] = [
     "privateKey": "302e020100300506032b657004220420d2e5ba5f3aab773e6a51af47f38f31d2db5410dbf0691e4ca6d4d2770e6dcf12"
   }
 ]
-
